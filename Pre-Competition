@@ -11,14 +11,14 @@ async function startProgram() {
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
     await speak('Start', true);
-    await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true)
+    await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true);
 
 
 //Red
 //Bolts LED will turn Red
 //Driver: Andrew Caruso
 //Navigator: Justin
-
+	await setMainLed({ r: 255, g: 0, b: 0 });
 
 
 
