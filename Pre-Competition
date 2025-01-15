@@ -1,28 +1,35 @@
-//Team Members: Andrew Caruso, Justin Ryland
+//Programmer: Justin Ryland & Andrew Caruso
 //Date: 1.14.2025
 //Program: Pre-Competition
 //Hardware: Bolt #SB-B0D0
 
 //Start
+async function startProgram() {
+
+
 //Bolt will say Start across the LED's
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
-
+    await speak('Start', true);
+    await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true)
 
 
 //Red
 //Bolts LED will turn Red
 //Driver: Andrew Caruso
-//Navigator: Justin Ryland
+//Navigator: Justin
 
 
 
-//Forward & Turn 90 degree and Forward Again
+
+//Forward and turn 90 degrees and forward again
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
+
 
 
 
 //Play Sound
 //Driver: Andrew Caruso
 //Navigator: Justin Ryland
+}
