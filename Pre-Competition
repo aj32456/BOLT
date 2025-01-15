@@ -4,13 +4,15 @@
 //Hardware: Bolt #SB-B0D0
 
 //Start
+async function startProgram() {
+
+
 //Bolt will say Start across the LED's
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
-async function startProgram() {
     await speak('Start', true);
-    await setDisplayText('START', { r: 0, g: 255, b: 0 }, { r: 0, g: 0, b: 0 }, 0);
-}
+    await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true)
+
 
 //Red
 //Bolts LED will turn Red
@@ -30,3 +32,4 @@ async function startProgram() {
 //Play Sound
 //Driver: Andrew Caruso
 //Navigator: Justin Ryland
+}
