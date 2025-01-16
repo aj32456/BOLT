@@ -1,3 +1,4 @@
+
 //Programmer: Justin Ryland & Andrew Caruso
 //Date: 1.14.2025
 //Program: Pre-Competition
@@ -17,7 +18,7 @@ async function startProgram() {
 //Red
 //Bolts LED will turn Red
 //Driver: Andrew Caruso
-//Navigator: Justin
+//Navigator: Justin Ryland
 	await setMainLed({ r: 255, g: 0, b: 0 });
 
 
@@ -35,14 +36,19 @@ async function startProgram() {
 //Play Sound
 //Driver: Andrew Caruso
 //Navigator: Justin Ryland
+	await Sound.Animal.Monkey.play(true)
+
 
 //Figure Eight
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
 
 
-//Star
-//Driver: Andrew Caruso
-//Navigator: Justin Ryland
 
+//Star
+//Driver: Justin Ryland
+//Navigator: Andrew Caruso
+
+
+//End Program
 }
