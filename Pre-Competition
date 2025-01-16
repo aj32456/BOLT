@@ -6,13 +6,14 @@
 //Start
 async function startProgram() {
 
-
+/*
 //Bolt will say Start across the LED's
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
     await speak('Start', true);
     await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true);
 
+*/
 
 //Red
 //Bolts LED will turn Red
@@ -30,6 +31,18 @@ async function startProgram() {
 
 
 //Play Sound
+//Driver: Andrew Caruso
+//Navigator: Justin Ryland
+
+
+*/
+
+//Figure Eight
+//Driver: Justin Ryland
+//Navigator: Andrew Caruso
+
+
+//Star
 //Driver: Andrew Caruso
 //Navigator: Justin Ryland
 }
