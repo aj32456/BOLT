@@ -7,21 +7,17 @@
 //Start
 async function startProgram() {
 
-
 //Bolt will say Start across the LED's
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
     await speak('Start', true);
     await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true);
 
-
 //Red
 //Bolts LED will turn Red
 //Driver: Andrew Caruso
 //Navigator: Justin Ryland
 	await setMainLed({ r: 255, g: 0, b: 0 });
-
-
 
 //Forward and turn 90 degrees and forward again
 //Driver: Justin Ryland
@@ -32,23 +28,18 @@ async function startProgram() {
 	await roll(90, 0, 1);
 	await roll(90, 200, 2);
 
-
 //Play Sound
 //Driver: Andrew Caruso
 //Navigator: Justin Ryland
 	await Sound.Animal.Monkey.play(true)
 
-
 //Figure Eight
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
 
-
-
 //Star
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
-
 
 //End Program
 }
