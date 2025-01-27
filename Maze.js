@@ -1,3 +1,4 @@
+@ -0,0 +1,86 @@
 //Team: Justin Ryland & Andrew Caruso
 //Date: 1.24.2025
 //Program: Maze
@@ -11,13 +12,17 @@ async function startProgram() {
 //Say Start and print Start
 //Driver: Andrew Caruso
 //Navigator: Justin Ryland
-
+   await speak('Start', true);
+   await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true);
+   await roll(0, 185, 1);
 
 
 //Green Checkpoint
 //LED's turn Green
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
+	await delay(50000);
+	await setMainLed({ r: 0, g: 255, b: 0 });
 
 
 
