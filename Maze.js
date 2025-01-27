@@ -13,7 +13,7 @@ async function startProgram() {
 //Navigator: Justin Ryland
    await speak('Start', true);
    await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true);
-   await roll(0, 255, 0.44);
+   await roll(0, 54, 3);
 
 
 //Green Checkpoint
