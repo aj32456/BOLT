@@ -27,12 +27,7 @@ async function startProgram() {
 	await delay(1);
 	await roll(180, 35, 2);
 	await delay(1);
-	await Sound.Animal.Monkey.play(true);
-	await delay(1);
-	await roll(215, 40, 2.3);
-	await delay(1);
-	await roll(315, 28, 2);
-  await delay(1);
+
 
 
 
@@ -41,7 +36,12 @@ async function startProgram() {
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
 
-
+	await Sound.Animal.Monkey.play(true);
+	await delay(1);
+	await roll(215, 40, 2.3);
+	await delay(1);
+	await roll(315, 28, 2);
+    await delay(1);
 
 
 
