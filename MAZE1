@@ -31,7 +31,11 @@ await setMainLed({ r: 0, g: 255, b: 0 });
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
 
-
+await roll(90, 42, 3);
+await delay(1);
+await roll(180, 35, 2);
+await delay(1);
+await Sound.Animal.Monkey.play(true);
 
 
 
