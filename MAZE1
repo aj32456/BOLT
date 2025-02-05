@@ -20,7 +20,10 @@ await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true);
 //Driver: Andrew Caruso
 //Navigator: Justin Ryland
 
-
+await delay(1);
+await roll(0, 55, 2.7);
+await delay(1);
+await setMainLed({ r: 0, g: 255, b: 0 });
 
 
 //Sound #1 Checkpoint
