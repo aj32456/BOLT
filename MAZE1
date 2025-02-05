@@ -4,13 +4,16 @@
 //Hardware: Bolt #SB-B0D0
 
 //Start
-
+async function startProgram() {
 
 
 //Start & Say Start
 //Say Start and print Start
 //Driver: Justin Ryland
 //Navigator: Andrew
+
+await speak('Start', true);
+await scrollMatrixText('START', { r: 0, g: 0, b: 255 }, 30, true);
 
 //Green Checkpoint
 //LED's turn Green
